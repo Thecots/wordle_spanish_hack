@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordle hack xd</title>
+  <link rel="icon" href="./img/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="info">
+    <div>
+      <header>
+        <h1>Ejemplo</h1>
+      </header>
+      <h2>Paso 1</h2>
+      <img src="./img/f1.png" alt="">
+      <h2>Paso 2</h2>
+      <img src="./img/f2.png" alt="">
+    </div>
+  </section>
+  <main>
+    <header>
+      <h1>Wordle - Spanish word finder</h1>
+      <img src="./img/info.png" onclick="info(1)">
+    </header>
+    <section class="flettersgp">
+      <h1>Solo letras en verde y en su posición</h1>
+      <div>
+        <input type="text" maxlength="1"> 
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+        <input type="text" maxlength="1">
+      </div>
+    </section>
+    <section class="flettersbp">
+      <h1>Todas las letras en amarillo</h1>
+      <input type="text">
+    </section>
+    <section class="flettersb">
+      <h1>Todas las letras que no estén en la palabra</h1>
+      <input type="text">
+    </section>
+    <button onclick="doit()">Filtrar</button>
+    <section class="list">
+    </section>
+  </main>
+  <script src="./index.js"></script>
+</body>
+</html>
